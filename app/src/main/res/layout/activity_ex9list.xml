@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/backgr"
+    tools:context=".Ex9listActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#A6A6A6"
+            android:background="#404040"
+            android:text="전화번호부"
+            tools:textSize="50dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#252525"
+        android:gravity="center"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="15dp"
+            android:layout_weight="3"
+            android:background="@drawable/calls"
+            android:gravity="bottom"
+            android:text=" 홍길동"
+            android:textColor="#A6A6A6"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tvPhone1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_weight="8"
+            android:background="#A6B8C4"
+            android:gravity="bottom"
+            android:text="01012341234"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/ivCall1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#252525"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:textColor="#A6A6A6"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:background="@drawable/calls"
+            android:text=" 홍길동" />
+
+        <TextView
+            android:id="@+id/tvPhone2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="20dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:background="#A6B8C4"
+            android:text="01012341234" />
+
+        <ImageView
+            android:id="@+id/ivCall2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#252525"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:textColor="#A6A6A6"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:background="@drawable/calls"
+            android:text=" 홍길동" />
+
+        <TextView
+            android:id="@+id/tvPhone3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="20dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:background="#A6B8C4"
+            android:text="01012341234" />
+
+        <ImageView
+            android:id="@+id/ivCall3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#252525"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:textColor="#A6A6A6"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:background="@drawable/calls"
+            android:text=" 홍길동" />
+
+        <TextView
+            android:id="@+id/tvPhone4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="20dp"
+            android:background="#A6B8C4"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:text="01012341234" />
+
+        <ImageView
+            android:id="@+id/ivCall4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#252525"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:textColor="#A6A6A6"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:background="@drawable/calls"
+            android:text=" 홍길동" />
+
+        <TextView
+            android:id="@+id/tvPhone5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="20dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:background="#A6B8C4"
+
+            android:text="01012341234" />
+
+        <ImageView
+            android:id="@+id/ivCall5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#252525"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:textColor="#A6A6A6"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:background="@drawable/calls"
+            android:text=" 홍길동" />
+
+        <TextView
+            android:id="@+id/tvPhone6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="20dp"
+            android:background="#A6B8C4"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:text="01012341234" />
+
+        <ImageView
+            android:id="@+id/ivCall6"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#252525"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:textColor="#A6A6A6"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:background="@drawable/calls"
+            android:text=" 홍길동" />
+
+        <TextView
+            android:id="@+id/tvPhone7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="20dp"
+            android:background="#A6B8C4"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:text="01012341234" />
+
+        <ImageView
+            android:id="@+id/ivCall7"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#252525"
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal">
+
+        <TextView
+
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:textSize="25dp"
+            android:textColor="#A6A6A6"
+            android:layout_marginLeft="15dp"
+            android:gravity="bottom"
+            android:background="@drawable/calls"
+            android:text=" 홍길동" />
+
+        <TextView
+            android:id="@+id/tvPhone8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="8"
+            android:textSize="20dp"
+            android:gravity="bottom"
+            android:layout_gravity="bottom"
+            android:background="#A6B8C4"
+            android:text="01012341234" />
+
+        <ImageView
+            android:id="@+id/ivCall8"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/callic" />
+    </LinearLayout>
+
+</LinearLayout>

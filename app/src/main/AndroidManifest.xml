@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.sch.polio">
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Polio"
+        tools:targetApi="31">
+        <activity
+            android:name=".Ex22SQLiteExMain"
+            android:exported="false" />
+        <activity
+            android:name=".Ex22SQLiteExLogin"
+            android:exported="false" />
+        <activity
+            android:name=".Ex22SQLiteExJoin"
+            android:exported="false" />
+        <activity
+            android:name=".Ex22JoinOkActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GoogleMapSearchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex21GpsMapEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex20CalcActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex19FragmentEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex18HadlerEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex17Viewpager2"
+            android:exported="false" />
+        <activity
+            android:name=".Ex16LoginSharedPreferences"
+            android:exported="false" />
+        <activity
+            android:name=".Ex15SharedPreferences"
+            android:exported="false" />
+        <activity
+            android:name=".Ex14IntentDataReceive"
+            android:exported="false" />
+        <activity
+            android:name=".Ex14IntentDataSend"
+            android:exported="false" />
+        <activity
+            android:name=".Ex13IntentDataReceive"
+            android:exported="false" />
+        <activity
+            android:name=".Ex13IntentDataSend"
+            android:exported="false" />
+        <activity
+            android:name=".Ex12SwitchActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex11spinnerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex10listviewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex9listActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex8GalleryViewEx"
+            android:exported="false" />
+        <activity
+            android:name=".Ex7SmsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex6TelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex5WebViewExNaver"
+            android:exported="false" />
+        <activity
+            android:name=".Ex5WebViewExYoutube"
+            android:exported="false" />
+        <activity
+            android:name=".Ex5WebViewExGoogle"
+            android:exported="false" />
+        <activity
+            android:name=".Ex5WebViewActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex4MediaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex3VideoActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex2gifActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Ex1AnimationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Mainmain"
+            android:exported="false" />
+        <activity
+            android:name=".LogActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
